@@ -1,0 +1,76 @@
+/* Container styling for charts */
+.chart-container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 20px auto;
+  height: 800px;
+  background-color: #f5f4f4;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling for light mode */
+body:not(.dark-mode) button {
+  background-color: #2b8aef; 
+  color: #ffffff; 
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 200px; 
+  height: 50px; 
+  text-align: center;
+}
+
+/* Disabled button styling */
+body:not(.dark-mode) button:disabled {
+  background-color: #cccccc; 
+  color: #666666; 
+}
+
+/* Button hover effect in light mode */
+body:not(.dark-mode) button:hover {
+  background-color: #236abf; 
+}
+
+/* Input and select field styling */
+input,
+select {
+  background-color: #f0f4f8;
+  color: #333333;
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+  font-size: 16px;
+  border: 1px solid #d1d9e0;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Form styling */
+form {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Heading styling */
+h1, h2 {
+  text-align: center;
+  color: #2e3b4e;
+}
+
+/* Body background styling */
+body {
+  background-color: #e9f3fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

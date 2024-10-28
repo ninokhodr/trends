@@ -1,0 +1,79 @@
+/* Dark mode styling */
+body.dark-mode {
+    background-color: #15171b; /* Pure black background */
+    color: #cfd8dc; /* Soft cool silver text for contrast */
+  }
+  
+  /* Container styling for charts in dark mode */
+  body.dark-mode .chart-container {
+    background-color: #1f1f1f; /* Dark background for chart container */
+    box-shadow: none;
+    border-radius: 8px;
+  }
+  
+  /* Button styling in dark mode */
+  body.dark-mode button {
+    background-color: #3b4252; 
+    color: #eceff4;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 200px; 
+    height: 50px; 
+    text-align: center;
+  }
+  
+  /* Disabled button styling in dark mode */
+  body.dark-mode button:disabled {
+    background-color: #444444; 
+    color: #999999; 
+  }
+  
+  /* Button hover styling in dark mode */
+  body.dark-mode button:hover {
+    background-color: #4c566a; 
+    color: #eceff4;
+  }
+  
+  /* Input and select field styling in dark mode */
+  body.dark-mode input,
+  body.dark-mode select {
+    background-color: #2e3440; 
+    color: #eceff4; 
+    border: 1px solid #4c566a; 
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  /* Form styling in dark mode */
+  body.dark-mode form {
+    margin-bottom: 30px;
+  }
+  
+  /* Heading styling in dark mode */
+  body.dark-mode h1,
+  body.dark-mode h2 {
+    text-align: center;
+    color: #88c0d0; 
+  }
+  
+  /* Chart and tooltip styling in dark mode */
+  body.dark-mode .chartjs-render-monitor {
+    background-color: #000000 !important;
+    border-radius: 8px;
+  }
+  
+  body.dark-mode .chartjs-tooltip {
+    background-color: #2e3440; 
+    color: #eceff4;
+    border-radius: 4px;
+  }
+  
